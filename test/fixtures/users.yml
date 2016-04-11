@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  rent: MyString
+  bedrooms: MyString
+  bathrooms: MyString
+  pets: MyString
+
+two:
+  type: 
+  rent: MyString
+  bedrooms: MyString
+  bathrooms: MyString
+  pets: MyString

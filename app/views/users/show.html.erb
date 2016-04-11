@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @user.type %>
+</p>
+
+<p>
+  <strong>Rent:</strong>
+  <%= @user.rent %>
+</p>
+
+<p>
+  <strong>Bedrooms:</strong>
+  <%= @user.bedrooms %>
+</p>
+
+<p>
+  <strong>Bathrooms:</strong>
+  <%= @user.bathrooms %>
+</p>
+
+<p>
+  <strong>Pets:</strong>
+  <%= @user.pets %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
